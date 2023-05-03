@@ -74,7 +74,7 @@ num_pages = total_users // members_per_page + (1 if total_users % members_per_pa
 print(f"Total users: {total_users}")
 print(f"Number of pages: {num_pages}")
 
-rows = [["username", "rank", "posts", "website", "joined"]]
+rows = [["username", "rank", "website", "joined"]]
 
 # Begin retrieving memberlist information
 for page_i in range(num_pages):
