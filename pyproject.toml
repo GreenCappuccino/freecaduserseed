@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "freecaduserseed"
+version = "0.1.0"
+description = "Fetches users from existing FreeCAD installations, and generates seed data for import scripts."
+authors = ["Brian Lu <me@greencappuccino.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+requests = "^2.29.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
